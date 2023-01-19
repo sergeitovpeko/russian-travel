@@ -1,0 +1,24 @@
+{
+  "name": "russian-travel",
+  "version": "1.0.0",
+  "description": "* Интро\r * Figma\r * Картинки",
+  "main": "index.js",
+  "scripts": {
+    "start": "css-to-bem-file-structure pages/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yandex-praktikum/russian-travel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yandex-praktikum/russian-travel/issues"
+  },
+  "homepage": "https://github.com/yandex-praktikum/russian-travel#readme",
+  "devDependencies": {
+    "css-to-bem-file-structure": "0.0.2"
+  }
+}
