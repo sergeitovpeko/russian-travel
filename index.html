@@ -19,8 +19,10 @@
     <!-- Шапка -->
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="Логотип Карта России">
-      <a  class="header__lang-link" href="#">Ru</a>
+      <div class="header__lang-links">
+      <a  class="header__lang-link header__lang-link_active" href="#">Ru</a>
       <a  class="header__lang-link" href="#">En</a>
+    </div>
     </header>
 
 
@@ -46,17 +48,17 @@
           Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране.
           Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li class="intro__list-item">Часовых поясов 11</li>
-          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО 12</li>
-          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО 16</li>
-          <li class="intro__list-item">Природных заповедников 105</li>
-          <li class="intro__list-item">Аэропортов 241</li>
+          <li class="intro__list-item">Часовых поясов <span class="intro__number">11</span></li>
+          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__number">12</span></li>
+          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__number">16</span></li>
+          <li class="intro__list-item">Природных заповедников <span class="intro__number">105</span></li>
+          <li class="intro__list-item">Аэропортов <span class="intro__number">241</span></li>
         </ul>
       </section>
 
 
       <!-- Фотографии -->
-      <div class="photo-grid">
+      <section class="photo-grid">
         <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Картинка вид из окна поезда">
         <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Картинка заснеженные горы">
         <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Картинка поле в тумане">
@@ -69,7 +71,7 @@
         <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Картинка вид на камчтский вулкан">
         <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Картинка скалы на озере Байкал">
         <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Картинка горы в тумане">
-      </div>
+      </section>
 
 
       <!-- Места -->
@@ -166,7 +168,7 @@
       <section class="cover">
         <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
           <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие отстолицы до Байкала на электричках.</p>
         </a>
       </section>
     </main>
@@ -174,13 +176,13 @@
 
     <!-- Подвал -->
     <footer class="footer">
-      <div class="footer__links">
+      <nav class="footer__links">
         <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
         <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
         <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
         <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
         <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
-      </div>
+      </nav>
       <p class="footer__copyright">&copy; 2020. Сергей Товпеко</p>
     </footer>
   </div>

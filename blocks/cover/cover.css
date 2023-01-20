@@ -1,21 +1,24 @@
 .cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../images/cover-trains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 1184px;
-  height: 740px;
+  min-height: 740px;
   margin: 0 auto;
 }
 
 .cover:hover {
-  opacity: 0.8;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../../images/cover-trains.jpg);
 }
 
 @media (max-width: 1279px) {
   .cover {
     background-size: cover;
     max-width: 1024px;
-    height: 640px;
+    min-height: 640px;
   }
 }
 
@@ -30,6 +33,6 @@
   .cover {
     background-size: cover;
     max-width: 320px;
-    height: 200px;
+    min-height: 200px;
   }
 }

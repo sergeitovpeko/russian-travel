@@ -6,8 +6,7 @@
   line-height: 104%;
   text-align: center;
   margin: 0 132px;
-  width: 720px;
-  height: 200px;
+  max-width: 720px;
 }
 
 @media (max-width: 1279px) {
@@ -27,7 +26,6 @@
     font-size: 40px;
     line-height: 110%;
     margin: 0 16px;
-    width: 288px;
-    height: 88px;
+    max-width: 288px;
   }
 }

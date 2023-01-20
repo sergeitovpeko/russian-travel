@@ -1,5 +1,18 @@
 .cover__link {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
   text-decoration: none;
+  gap: 32px;
   color: #fff;
+}
+
+@media (max-width: 767px) {
+  .cover__link {
+    gap: 16px;
+}
 }
