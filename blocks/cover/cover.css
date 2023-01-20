@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(42, 44, 47, 0.3),rgba(42, 44, 47, 0.3)),url(../../images/cover-trains.jpg); 
+  background-image: linear-gradient(rgba(42, 44, 47, 0.3),rgba(42, 44, 47, 0.3)),url(../../images/cover-trains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 1184px;
